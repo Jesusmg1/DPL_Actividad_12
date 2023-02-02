@@ -22,7 +22,7 @@ public class ProyectoETS{
         */
 	static boolean existeCuenta(int num_c){
 		if(!(usuarios.containsKey(num_c))){
-			System.out.println("Numero de cuenta no registrado");
+			System.out.println("El Numero de cuenta no ha sido registrado");
 			return false;
 		}
 		return true;
